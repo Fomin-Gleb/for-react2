@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  background-color: antiquewhite;
+  justify-content: space-between;
+}
+
+.header-wrapper {
+  padding: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.main {
+  padding: 0 100px;
+  max-height: 800px;
+}
+
+.post {
+  display: flex;
+  max-width: 800px;
+  padding: 15px;
+  border: 1px solid teal;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noPostsFound {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.active-link {
+  color: red
+}
+
+.login-form {
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+#light {
+  background-color: rgb(158, 196, 230);
+
+}
+
+#light button {
+  background-color: blueviolet;
+}
+
+#dark {
+  background-color: gray;
+}
+
+/* input[type='checkbox']{
+    width: 50px;
+    height: 50px;
+}
+input[type='checkbox']:checked{
+  color: brown;
+} */
